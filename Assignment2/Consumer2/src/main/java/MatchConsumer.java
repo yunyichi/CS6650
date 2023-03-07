@@ -53,7 +53,9 @@ public class MatchConsumer {
                             if (!matchMap.containsKey(swiper)) {
                                 matchMap.put(swiper, new ArrayList<>());
                             }
-                            matchMap.get(swiper).add(swipee);
+                            if (matchMap.get(swiper).size() < 100) {
+                                matchMap.get(swiper).add(swipee);
+                            }
                         }
 
                         channel.basicAck(delivery.getEnvelope().getDeliveryTag(), false);
