@@ -43,9 +43,4 @@ public class GetMatchDao {
         }
         return matchList;
     }
-
-//    public static void main(String[] args) {
-//        LiftRideDao liftRideDao = new LiftRideDao();
-//        liftRideDao.createLiftRide(new LiftRide(100, 200, 300, 400, 500, 600));
-//    }
 }

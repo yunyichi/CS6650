@@ -2,7 +2,6 @@
   <artifact type="exploded-war" name="GetMatchServer:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/GetMatchServer_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="GetMatchServer/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="GetMatchServer" />
@@ -18,6 +17,7 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.36" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="GetMatchServer/web/Web" />
     </root>
   </artifact>
 </component>
